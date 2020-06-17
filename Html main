@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réseau social</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topbar">
+        <a href="#" class="topbar-logo">Social</a>
+        <nav class="topbar-nav">
+            <a href="#">Accueil</a>
+            <a href="#" class="active">Historique</a>
+            <a href="#">Evènement</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container site">
+        <nav class="sidebar">
+            <a href="#" class="sidebar-home active">Fil d'actualité</a>
+            <a href="#" class="sidebar-messages">Messages</a>
+            <a href="#" class="sidebar-events">Evènement</a>
+            <a href="#" class="sidebar-group">Groupes</a>
+            <a href="#" class="sidebar-group">Amis</a>
+        </nav>
+        <main class="main">
+            <article class="card">
+                <header class="card-header card-header-avatar">
+                    <img src="img/avatar.png" width="45" height="45" class="card-avatar">
+                    <div class="card-title">Mon pseudo</div>
+                    <div class="card-date">Il y a 10 minutes</div>
+                </header>
+                <div class="card-body">
+                    <p>
+                        <img src="img/image.jpg" alt="paysage" class="fullwidth">
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nihil, reprehenderit libero veniam animi in cum id. Eveniet vel quod, sapiente accusamus excepturi qui. Temporibus ipsam iste quaerat dolor doloremque.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dignissimos ipsa eius? Esse, magni excepturi placeat laborum numquam impedit maiores unde deserunt a, sit voluptatibus itaque autem tenetur doloribus voluptatem.
+                    </p>
+                </div>
+                <footer class="card-footer">
+                    <div class="card-like">120 pouces</div>
+                    <div class="card-comments">12 Commentaires</div>
+                </footer>
+            </article>
+            <article class="card">
+                <header class="card-header card-header-avatar">
+                    <img src="img/avatar.png" width="45" height="45" class="card-avatar">
+                    <div class="card-title">Mon pseudo</div>
+                    <div class="card-date">Il y a 10 minutes</div>
+                </header>
+                <div class="card-body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nihil, reprehenderit libero veniam animi in cum id. Eveniet vel quod, sapiente accusamus excepturi qui. Temporibus ipsam iste quaerat dolor doloremque.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dignissimos ipsa eius? Esse, magni excepturi placeat laborum numquam impedit maiores unde deserunt a, sit voluptatibus itaque autem tenetur doloribus voluptatem.
+                    </p>
+                </div>
+                <footer class="card-footer">
+                    <div class="card-like">120 pouces</div>
+                    <div class="card-comments">12 Commentaires</div>
+                </footer>
+            </article>
+            <article class="card">
+                <header class="card-header ">
+                    <div class="card-title">Mon pseudo</div>
+                    <div class="card-date">Il y a 10 minutes</div>
+                </header>
+                <div class="card-body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nihil, reprehenderit libero veniam animi in cum id. Eveniet vel quod, sapiente accusamus excepturi qui. Temporibus ipsam iste quaerat dolor doloremque.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dignissimos ipsa eius? Esse, magni excepturi placeat laborum numquam impedit maiores unde deserunt a, sit voluptatibus itaque autem tenetur doloribus voluptatem.
+                    </p>
+                </div>
+                <footer class="card-footer">
+                    <div class="card-like">120 pouces</div>
+                    <div class="card-comments">12 Commentaires</div>
+                </footer>
+            </article>
+        </main>
+        <aside class="aside">
+            <article class="card profil">
+                <header class="card-header card-header-avatar">
+                    <img src="img/avatar.png" width="45" height="45" class="card-avatar">
+                    <div class="card-title">Mon pseudo</div>
+                    <div class="card-date">Inscrit il y a 10 ans</div>
+                </header>
+                <div class="card-body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nihil, reprehenderit libero veniam animi in cum id. Eveniet vel quod, sapiente accusamus excepturi qui. Temporibus ipsam iste quaerat dolor doloremque.
+                    </p>
+                </div>
+            </article>
+            <div class="sidebar-title">Suggestion</div>
+            <div class="friends-list">
+                <div class="friend">
+                    <div class="friend-avatar">
+                        <img src="https://via.placeholder.com/73x73" alt="">
+                    </div>
+                    <div class="friend-body">
+                        <a class="friend-name" href="#">John Doe</a>
+                        <div class="friend-connections">15 amis mutuels</div>
+                        <a class="friend-add" href="#">Ajouter en ami</a>
+                    </div>
+                </div>
+                <div class="friend">
+                    <div class="friend-avatar">
+                        <img src="https://via.placeholder.com/73x73" alt="">
+                    </div>
+                    <div class="friend-body">
+                        <a class="friend-name" href="#">John Doe</a>
+                        <div class="friend-connections">15 amis mutuels</div>
+                        <a class="friend-add" href="#">Ajouter en ami</a>
+                    </div>
+                </div>
+                <div class="friend">
+                    <div class="friend-avatar">
+                        <img src="https://via.placeholder.com/73x73" alt="">
+                    </div>
+                    <div class="friend-body">
+                        <a class="friend-name" href="#">John Doe</a>
+                        <div class="friend-connections">15 amis mutuels</div>
+                        <a class="friend-add" href="#">Ajouter en ami</a>
+                    </div>
+                </div>
+                <div class="friend">
+                    <div class="friend-avatar">
+                        <img src="https://via.placeholder.com/73x73" alt="">
+                    </div>
+                    <div class="friend-body">
+                        <a class="friend-name" href="#">John Doe</a>
+                        <div class="friend-connections">15 amis mutuels</div>
+                        <a class="friend-add" href="#">Ajouter en ami</a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
